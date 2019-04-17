@@ -1,0 +1,24 @@
+<div>
+  <h4>Loading User</h4>
+</div>
+<div>
+  <!-- <div [class.hidden]="currentlyHidden"> -->
+    <h3>General Info</h3>
+    <div>
+      <h4>ID</h4>
+      <p>{{ userId }}</p>
+      <h4>Name</h4>
+      <p>{{ specificUser.username }}</p>
+      <h4>Weight</h4>
+      <p>{{ weight }}</p>
+      <!-- <div [class.red-text]="getElementIsRed()"> -->
+        <h4>Image</h4>
+        <ul>
+          <li *ngFor="let image of images">
+            {{ image.profileImage }}
+          </li>
+        </ul>
+      </div>
+    <!-- </div> -->
+  <!-- </div> -->
+</div>

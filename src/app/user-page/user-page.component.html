@@ -1,0 +1,21 @@
+
+<!-- <app-general-info></app-general-info> -->
+<a routerLink="/">
+    <button>Home</button>
+</a>
+
+<p>User page</p>
+
+<!-- <li *ngFor="let user of users">
+<p>Images for {{user.username}}</p>
+</li> -->
+
+        <ul>
+            <li *ngFor="let pic of profilepic">
+            <!-- <a routerLink="/user/:id"> -->
+                <img src="{{ pic }}">
+             <!-- <img src="{{ pic }}"></a>  -->
+            </li>
+          </ul>
+
+  

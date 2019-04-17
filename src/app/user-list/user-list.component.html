@@ -1,0 +1,9 @@
+<h4>Nextagram User List</h4>
+<h4>Profile</h4>
+<ul>
+    <li *ngFor="let user of users">
+    <a routerLink="/user/{{user.id}}">
+     
+      {{ user.username }}</a> 
+    </li>
+  </ul>

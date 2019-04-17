@@ -1,0 +1,10 @@
+ ul li {
+    display: flex;
+} 
+
+ul li img{
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+    
+}
